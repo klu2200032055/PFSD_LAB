@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% extends 'Project/ProjectNavbar.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        /* Custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+{% block body %}
+<div class="container">
+    <h1>Welcome to Likhil's Flask Framework Project Homepage</h1>
+    <!-- Your content goes here -->
+</div>
+{% endblock %}
+
+</body>
+</html>
